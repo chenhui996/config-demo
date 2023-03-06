@@ -1,0 +1,42 @@
+.frc-table-angle-box {
+  position: relative;
+  float: right;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .tag-container {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    padding-left: 1px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .frc-table-angle-contaner {
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    margin-left: 2px;
+    top: 4px;
+    right: 0px;
+    position: absolute;
+    overflow: hidden;
+
+    .frc-table-angle {
+      width: 8px;
+      height: 8px;
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      background-color: #f9c152;
+      transform: rotate(45deg);
+    }
+  }
+}
